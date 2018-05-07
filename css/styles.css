@@ -1,0 +1,56 @@
+img.imgLog {
+    width: 60px;
+    height: 50px;
+}
+
+.jus{
+    text-align: justify;
+}
+.wit{
+    width: 400px;
+    height: 300px;
+}
+
+.tam{
+    width: 150px;
+    height: 150px;
+}
+
+.Bold{
+    font-weight: bold;
+    color:#fff;
+}
+
+.marg{
+    margin-top: 20%;
+}
+
+.tama{
+    width: 400px;
+    height: 250px;
+}
+
+.container{
+    margin: 0 auto;
+}
+
+.tamañ{
+    width: 700px;
+    height: 250px;
+}
+
+.loguito{
+    width: 500px;
+    height: 350px;
+}
+.foo{
+    height: auto;
+}
+
+section#dish {
+    padding: 25px;
+    padding-bottom: 30px;
+}
+.section-gap {
+   padding: 39px 0;
+}
