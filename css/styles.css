@@ -54,3 +54,60 @@ section#dish {
 .section-gap {
    padding: 39px 0;
 }
+#mobile-nav-toggle i {
+    color: #ffffff;
+    font-weight: 900;
+}
+.video-area {
+    background: url(../img/images/UberEats.jpg) center;
+    background-size: cover;
+    padding: 100px 0px;
+    text-align: center;
+}
+.nav-menu a {
+    padding: 0 8px 0px 8px;
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    outline: none;
+    font-weight: bold;
+}
+
+@media (max-width:600px) {
+    .video-area {
+        background: url(../img/images/UberEats.jpg) center;
+        background-size: 100%;
+        padding: 23px 0px;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-color: #000;
+        background-position-y: -39px;
+    }
+    .tam {
+        width: 100px;
+        height: 100px;
+    }
+    .pt-100 {
+        padding-top: 50px;
+    }
+    .feature-section {
+        border-bottom: 1px solid #eee;
+        padding-bottom: 50px;
+    }
+    .pb-30 {
+        padding-left: 10px;
+        padding-bottom: 30px;
+        padding-right: 10px;
+    }
+    p.footer-text.m-0.text-center {
+        text-align: center;
+        padding-left: 30px;
+    }
+    .wit {
+        width: 400px;
+        height: auto;
+    }
+}
