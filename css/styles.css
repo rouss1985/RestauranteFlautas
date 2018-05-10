@@ -68,7 +68,7 @@ section#dish {
     padding: 0 8px 0px 8px;
     text-decoration: none;
     display: inline-block;
-    color: #fff;
+    color: #222;
     font-weight: 400;
     font-size: 12px;
     text-transform: uppercase;
@@ -103,7 +103,7 @@ section#dish {
 
 @media (max-width:600px) {
     .video-area {
-        background: url(../img/images/banerFlautas.jpg) center;
+        background: url(../img/images/UberEats.jpg) center;
         background-size: 100%;
         padding: 23px 0px;
         text-align: center;
