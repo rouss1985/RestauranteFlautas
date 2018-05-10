@@ -60,9 +60,9 @@ section#dish {
 }
 .video-area {
     background: url(../img/images/UberEats.jpg) center;
-    background-size: cover;
-    padding: 100px 0px;
+    background-size: auto 100%;
     text-align: center;
+    background-repeat: no-repeat;
 }
 .nav-menu a {
     padding: 0 8px 0px 8px;
@@ -75,10 +75,35 @@ section#dish {
     outline: none;
     font-weight: bold;
 }
+.row.justify-content-center.d-flex.align-items-center {
+    align-items: end !important;
+}
+.banner-area {
+    background: url(../img/images/instalaciones7.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 1100px;
+}
+.contacto {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 15px;
+    background-color: #EEF5F9;
+    background-size: cover;
+    padding-top: 1px;
+    padding-bottom: 19px;
+    margin-top: -21px;
+}
+.wid{
+    width: 90%;
+}
+.marg{
+
+}
 
 @media (max-width:600px) {
     .video-area {
-        background: url(../img/images/UberEats.jpg) center;
+        background: url(../img/images/banerFlautas.jpg) center;
         background-size: 100%;
         padding: 23px 0px;
         text-align: center;
